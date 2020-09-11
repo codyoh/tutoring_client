@@ -1,0 +1,118 @@
+.canvas-tool-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  .tool-bar {
+    border-top: .5vh solid black;
+  }
+  label {
+    font-size: 2vw;
+  }
+  #strokeWeight {
+    width: 10vw;
+  }
+  div.tool-bar button {
+    font-size: 2vw;
+    height: 7vh;  /*7*/
+    width: 10vw; /*10*/
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: .5vh; /*.5*/
+    padding: .5vh;
+    background-color: #7e54ff;
+    color: #fff;
+    border-style: none;
+    border-radius: 3px;
+  }
+  .history-slider {
+    justify-content: center;
+  }
+  .history-slider input {
+    width: 100%;
+  }
+  .text-input {
+    border-style: none;
+    height: 7vh; /*7*/
+    margin: .5vh;
+    border-radius: 3px;
+    width: 3vw;
+  }
+  .toggle-button {
+    width: 60px;
+    background-color: #fff;
+    border-radius: 25px 25px 0px 0px;
+    border: .5vh solid black;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    bottom: 8vh;
+  }
+  .display-toggle-button {
+    width: 60px;
+    background-color: #fff;
+    border-radius: 25px 25px 0px 0px;
+    border: .5vh solid black;
+    border-bottom: none;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+  }
+  .tool-bar {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    height: 8vh;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+  }
+  .display-tool-bar {
+    width: 100%;
+    display: none;
+    height: 0vh;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+  }
+  .drop-down {
+    position: relative;
+    display: inline-block;
+  }
+  .drop-down-contents {
+    justify-content: center;
+    display: none;
+    position: absolute;
+    z-index: 1;
+    bottom: 8.5vh;
+    background-color: #fff;
+  }
+  ul {
+    padding: 0;
+  }
+  .drop-down-contents button {
+    display: block;
+  }
+  li {
+    list-style-type: none;
+    justify-content: center;
+  }
+  .drop-down:hover .drop-down-contents {
+    display: block;
+  }
+  .drop-down-contents:hover .drop-down-contents {
+    display: block;
+  }
+  
+  .up-arrow-icon {
+    transform: rotate(0deg);
+  }
+  .down-arrow-icon {
+    transform: rotate(180deg);
+  }
