@@ -59,7 +59,7 @@ export default function sketch(p5){
 //   }
 
 
-const socket = io('http://localhost:4000')
+const socket = io('45.33.56.41:4000')
 
 var peers = {}
 
