@@ -24,6 +24,7 @@ class FreeHandObject {
        }
       this.p.curveVertex(this.points[this.points.length-1].x, this.points[this.points.length-1].y);
       this.p.endShape();
+      //console.log(this.points[0])
     }
   }
   export default FreeHandObject;

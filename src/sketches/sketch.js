@@ -59,7 +59,7 @@ export default function sketch(p5){
 //   }
 
 
-const socket = io('45.33.56.41:4000')
+const socket = io('173.230.148.240:4000')
 
 var peers = {}
 
@@ -160,8 +160,8 @@ var peers = {}
     height: window.innerHeight*.9
   }
   var otherCanvasSize = {
-    width: 1,
-    height: 1
+    width: window.innerWidth,
+    height: window.innerHeight*.9
   }
   var scaleBetweenCanvases = {
     width: 1,
@@ -255,6 +255,7 @@ var peers = {}
     p5.textFont(font);
     p5.textSize(32);
     p5.fill(0);
+    p5.circle(0,0,50);
     socket.emit('screenSize', canvasSize);
   };
 
@@ -425,6 +426,8 @@ var peers = {}
   p5.mousePressed = function () {
     if (insideCanvas()) {
       stroke.push({'x': p5.mouseX-mouseOffset.x, 'y': p5.mouseY-mouseOffset.y});
+      // stroke.push({'x': p5.mouseX, 'y': p5.mouseY});
+      console.log(p5.mouseX + " , " + p5.mouseY)
       switch(drawType) {
         case 'freeHand':
           drawFreeHand(stroke, weight, color);
@@ -432,8 +435,11 @@ var peers = {}
             color: color,
             weight: weight,
             x: (p5.mouseX-mouseOffset.x)*scaleBetweenCanvases.width,
+            // x: (p5.mouseX)*scaleBetweenCanvases.width,
             y: (p5.mouseY-mouseOffset.y)*scaleBetweenCanvases.height
+            // y: (p5.mouseY)*scaleBetweenCanvases.height
           }
+          console.log(hist[0].points)
           socket.emit('startFreeHand', data)
           break;
         case 'circle':
@@ -474,6 +480,7 @@ var peers = {}
 
   p5.mouseDragged = function () {
     stroke.push({'x': p5.mouseX-mouseOffset.x, 'y': p5.mouseY-mouseOffset.y});
+    // stroke.push({'x': p5.mouseX, 'y': p5.mouseY});
     var data = {
       x: (p5.mouseX-mouseOffset.x),
       y: (p5.mouseY-mouseOffset.y)
@@ -510,6 +517,11 @@ var peers = {}
       hist[i].display();
     }
     p5.stroke('red')
+    p5.circle(-otherCanvasSize.width/2, otherCanvasSize.height/2, 8)
+    p5.circle(-otherCanvasSize.width/2, -otherCanvasSize.height/2, 8)
+    p5.circle(otherCanvasSize.width/2, otherCanvasSize.height/2, 8)
+    p5.circle(otherCanvasSize.width/2, -otherCanvasSize.height/2, 8)
+    
     // console.log(otherCanvasSize.width)
     // p5.line(0, otherCanvasSize.height, otherCanvasSize.width, otherCanvasSize.height)
     // p5.line(otherCanvasSize.width, 0, otherCanvasSize.width, otherCanvasSize.height)
