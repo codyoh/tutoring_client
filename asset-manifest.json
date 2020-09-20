@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tutor_site/static/css/main.34f86871.chunk.css",
+    "main.js": "/tutor_site/static/js/main.fce9519a.chunk.js",
+    "main.js.map": "/tutor_site/static/js/main.fce9519a.chunk.js.map",
+    "runtime-main.js": "/tutor_site/static/js/runtime-main.d6b5750a.js",
+    "runtime-main.js.map": "/tutor_site/static/js/runtime-main.d6b5750a.js.map",
+    "static/js/2.62f6ce01.chunk.js": "/tutor_site/static/js/2.62f6ce01.chunk.js",
+    "static/js/2.62f6ce01.chunk.js.map": "/tutor_site/static/js/2.62f6ce01.chunk.js.map",
+    "index.html": "/tutor_site/index.html",
+    "precache-manifest.02432a2c8e8ac6c1ff0795b83e204b2f.js": "/tutor_site/precache-manifest.02432a2c8e8ac6c1ff0795b83e204b2f.js",
+    "service-worker.js": "/tutor_site/service-worker.js",
+    "static/css/main.34f86871.chunk.css.map": "/tutor_site/static/css/main.34f86871.chunk.css.map",
+    "static/js/2.62f6ce01.chunk.js.LICENSE.txt": "/tutor_site/static/js/2.62f6ce01.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/tutor_site/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6b5750a.js",
+    "static/js/2.62f6ce01.chunk.js",
+    "static/css/main.34f86871.chunk.css",
+    "static/js/main.fce9519a.chunk.js"
+  ]
+}
