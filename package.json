@@ -1,7 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
-  "homepage": "http://codyoh.github.io/tutor_site",
+  "homepage": "http://codyoh.github.io/tutoring_client",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
