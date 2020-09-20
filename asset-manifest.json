@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/tutor_site/static/css/main.34f86871.chunk.css",
-    "main.js": "/tutor_site/static/js/main.fce9519a.chunk.js",
-    "main.js.map": "/tutor_site/static/js/main.fce9519a.chunk.js.map",
-    "runtime-main.js": "/tutor_site/static/js/runtime-main.d6b5750a.js",
-    "runtime-main.js.map": "/tutor_site/static/js/runtime-main.d6b5750a.js.map",
-    "static/js/2.62f6ce01.chunk.js": "/tutor_site/static/js/2.62f6ce01.chunk.js",
-    "static/js/2.62f6ce01.chunk.js.map": "/tutor_site/static/js/2.62f6ce01.chunk.js.map",
-    "index.html": "/tutor_site/index.html",
-    "precache-manifest.02432a2c8e8ac6c1ff0795b83e204b2f.js": "/tutor_site/precache-manifest.02432a2c8e8ac6c1ff0795b83e204b2f.js",
-    "service-worker.js": "/tutor_site/service-worker.js",
-    "static/css/main.34f86871.chunk.css.map": "/tutor_site/static/css/main.34f86871.chunk.css.map",
-    "static/js/2.62f6ce01.chunk.js.LICENSE.txt": "/tutor_site/static/js/2.62f6ce01.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/tutor_site/static/media/logo.5d5d9eef.svg"
+    "main.css": "/tutoring_client/static/css/main.34f86871.chunk.css",
+    "main.js": "/tutoring_client/static/js/main.184f94d2.chunk.js",
+    "main.js.map": "/tutoring_client/static/js/main.184f94d2.chunk.js.map",
+    "runtime-main.js": "/tutoring_client/static/js/runtime-main.99654cd2.js",
+    "runtime-main.js.map": "/tutoring_client/static/js/runtime-main.99654cd2.js.map",
+    "static/js/2.5ffb472a.chunk.js": "/tutoring_client/static/js/2.5ffb472a.chunk.js",
+    "static/js/2.5ffb472a.chunk.js.map": "/tutoring_client/static/js/2.5ffb472a.chunk.js.map",
+    "index.html": "/tutoring_client/index.html",
+    "precache-manifest.d6afc23cd2a3bd0a511d4ae6435be33f.js": "/tutoring_client/precache-manifest.d6afc23cd2a3bd0a511d4ae6435be33f.js",
+    "service-worker.js": "/tutoring_client/service-worker.js",
+    "static/css/main.34f86871.chunk.css.map": "/tutoring_client/static/css/main.34f86871.chunk.css.map",
+    "static/js/2.5ffb472a.chunk.js.LICENSE.txt": "/tutoring_client/static/js/2.5ffb472a.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/tutoring_client/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6b5750a.js",
-    "static/js/2.62f6ce01.chunk.js",
+    "static/js/runtime-main.99654cd2.js",
+    "static/js/2.5ffb472a.chunk.js",
     "static/css/main.34f86871.chunk.css",
-    "static/js/main.fce9519a.chunk.js"
+    "static/js/main.184f94d2.chunk.js"
   ]
 }
