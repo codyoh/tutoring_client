@@ -59,7 +59,7 @@ export default function sketch(p5){
 //   }
 
 
-const socket = io('http://173.230.148.240:4000', {secure: false})
+const socket = io('https://fast-tutor-api.herokuapp.com/', {secure: true})
 
 var peers = {}
 
