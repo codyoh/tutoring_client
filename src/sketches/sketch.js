@@ -59,7 +59,7 @@ export default function sketch(p5){
 //   }
 
 
-const socket = io('173.230.148.240:4000')
+const socket = io('http://173.230.148.240:4000', {secure: false})
 
 var peers = {}
 
